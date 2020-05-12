@@ -171,6 +171,7 @@ footer p{
   padding-top: 50%;
   font-family:'Delius Swash Caps' , cursive;
 }
+
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
