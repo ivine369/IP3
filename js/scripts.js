@@ -9,6 +9,7 @@ $(document).ready(function(){
     });
   });
   
+  
   $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").slideDown('1500').hide('1000');
@@ -96,7 +97,7 @@ $(document).ready(function(){
         alert("Please enter your name and email!");
       }
       
-      
+
     });
   
   });
