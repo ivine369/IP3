@@ -96,6 +96,7 @@ $(document).ready(function(){
         alert("Please enter your name and email!");
       }
       
+      
     });
   
   });
