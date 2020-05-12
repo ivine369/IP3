@@ -52,7 +52,7 @@ html{
 }
 .services{
   text-align: center;
-  background-image: url("../images/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   color: purple;
   background-position: center;
   background-size: cover;
@@ -95,7 +95,7 @@ html{
   font-family: 'Romanesco', serif;
 }
 .contact{
-  background-image: url('../images/backgrounds/c_image.jpg');
+  background-image: url('../assets/backgrounds/c_image.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ html{
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
-  color: greenyellow;
+  color: white;
   font-size: 20px;
   font-family: 'Copse', serif;
 }
