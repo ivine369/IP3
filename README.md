@@ -10,7 +10,7 @@
 -While still on the terminal,wrie (git commit -m "message")
 -Push changes to the created branch and write:("git push origin <branch name>")
 -There afterwards,you'll be asked to put your credentials
-##Technologies used
+##Technologies used.
 .html
 .css
 .Github
@@ -24,8 +24,8 @@ a copy of this software and associated documentation files
 (the"software") ,to deal 
 -vsCode
 ##Contact Information
-.In case of any question or issue,contact:
+.In case of any question or issue,contact;
      ivinekemuma014@gmail.com
      +254 786458901
      +254 569087349
-
+     +2543467839065
