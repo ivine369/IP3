@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
   });
   
-  
+
   $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").slideDown('1500').hide('1000');
@@ -53,6 +53,7 @@ $(document).ready(function(){
       $("#overlay3").hide();
     });
   });
+  
   $(document).ready(function(){
     $("#work4").mouseover(function(){
       $("#overlay4").show();
