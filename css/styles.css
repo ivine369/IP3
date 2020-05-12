@@ -197,6 +197,7 @@ footer p{
     /* margin-right: -20%; */
   }
 }
+
 @media only screen and (max-width: 425px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
