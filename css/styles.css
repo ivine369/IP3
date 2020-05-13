@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Kotta One");
 @import url("https://fonts.googleapis.com/css?family=Fredericka the Great");
 html{
   scroll-behavior: smooth;
@@ -9,7 +9,7 @@ html{
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(0, 3, 3);
+  color: white;
   text-align: center;
   padding-top: 17%; 
   font-family: 'Fredericka the Great', Cursive;
@@ -47,11 +47,11 @@ html{
 
 .about{
   text-align: center;
-  padding-bottom: 30px;
-  padding-top:40px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
   P{
-  font-family: 'Ciargette', Cursive;
+  font-family: 'Kotta One', cursive;
 }
 #about{
   font-family: 'Fredericka the Great', Cursive;
@@ -60,10 +60,19 @@ html{
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: multiply;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 70px;
+  padding-bottom: 70px;
   color: white;
-  text-align: center;
+  text-align: center;  padding-top: 70px;
+  font-family: 'Fredericka the Great', cursive;
+}
+.what-we-do .headings{
+  padding-bottom: 38px;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,7 +153,7 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
-  font-family: 'Smokum', cursive;
+  font-family: 'Merienda', cursive;
 }
 footer p{
   margin-top: 10px;
