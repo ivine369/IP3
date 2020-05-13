@@ -51,7 +51,7 @@ html{
   padding-top:40px;
 }
   P{
-  font-family: 'Fredericka the Great', Cursive;
+  font-family: 'Ciargette', Cursive;
 }
 #about{
   font-family: 'Fredericka the Great', Cursive;
@@ -63,7 +63,7 @@ html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'ciargette', cursive;
+  font-family: 'ciargette', serif;
   font-size: 19px;
 }
 .services h2{
@@ -120,9 +120,9 @@ font-family: 'Fredericka the Great', cursive;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
-  color: lime;
+  color: deepskyblue;
   font-size: 20px;
-  font-family:'Fredericka the Great'  , cursive;
+  font-family:'Smokum'  , cursive;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -148,7 +148,7 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
-  font-family: 'Cairgette', cursive;
+  font-family: 'Smokum', cursive;
 }
 footer p{
   margin-top: 10px;
@@ -175,7 +175,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family:'Cinzel' , cursive;
+  font-family:'Cinzel' , serif;
 }
 
 @media only screen and (max-width: 755px){
