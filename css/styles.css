@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Fredericka the Great");
 html{
   scroll-behavior: smooth;
 }
@@ -9,16 +9,17 @@ html{
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: rgb(0, 3, 3);
   text-align: center;
-  padding-top:17%; 
-  font-family: 'Gabriela', serif;
+  padding-top: 17%; 
+  font-family: 'Fredericka the Great', Cursive;
   /* padding-bottom:5%; */
 }
 .landing h1{
   padding: 2px;
   margin: 5px;
 }
+
 
 .landing p{
   padding: 2px;
@@ -33,6 +34,7 @@ html{
   padding-top : 22px;
   margin-top: 10%;
   padding-bottom: 30px; 
+
   /* animation-iteration-count: infinite; */
 }
 
@@ -47,10 +49,12 @@ html{
   text-align: center;
   padding-bottom: 30px;
   padding-top:40px;
-  font-family: 'Tangerine', serif;
+}
+  P{
+  font-family: 'Fredericka the Great', Cursive;
 }
 #about{
-  font-family: 'Romanesco', serif;
+  font-family: 'Fredericka the Great', Cursive;
 }
 .services{
   text-align: center;
@@ -59,11 +63,11 @@ html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Tangerine', serif;
+  font-family: 'ciargette', cursive;
   font-size: 19px;
 }
 .services h2{
-  font-family: 'Romanesco', serif;
+  font-family: 'Fredericka the Great', cursive;
   
 }
 #servicesoverlay{
@@ -72,10 +76,10 @@ html{
   padding-bottom: 10%;
 }
 .what-we-do{
-  font-family: 'Quattrocento', serif;
+  font-family: 'Cinzel', cursive;
   text-align: center;
   padding-top: 40px;
-  font-family: 'Romanesco', serif;
+  font-family: 'Fredericka the Great', cursive;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
@@ -94,31 +98,31 @@ html{
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: 'Romanesco', serif;
+  font-family: 'Fredericka the Great', cursive;
 }
 .contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: paleturquoise;
+  color: deepskyblue;
   /* text-align: center; */
 }
 .title{
   padding: 6px;
 }
 .contact h2{
-  text-align: center;
+  text-align: center ;
   margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
-  font-family: 'Romanesco', serif;
+font-family: 'Fredericka the Great', cursive;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
-  color: white;
+  color: lime;
   font-size: 20px;
-  font-family: 'Copse', serif;
+  font-family:'Fredericka the Great'  , cursive;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -144,14 +148,14 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'Cairgette', cursive;
 }
 footer p{
   margin-top: 10px;
 }
 #product, #development, #design{
   display: none;
-  font-family: 'Copse', serif;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 16px;
 }
 #product .title, #development .title, #design .title{
@@ -171,7 +175,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family:'Delius Swash Caps' , cursive;
+  font-family:'Cinzel' , cursive;
 }
 
 @media only screen and (max-width: 755px){
