@@ -50,6 +50,9 @@ html{
   padding-bottom: 70px;
   padding-top: 70px;
 }
+.about{
+  color: black;
+}
   P{
   font-family: 'Kotta One', cursive;
 }
@@ -85,6 +88,7 @@ html{
   text-align: center;
   padding-top: 40px;
   font-family: 'Fredericka the Great', cursive;
+  color: darkmagenta;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
@@ -104,6 +108,9 @@ html{
   text-align: center;
   padding-top:40px;
   font-family: 'Fredericka the Great', cursive;
+}
+.portfolio{
+  color: black;
 }
 .contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
