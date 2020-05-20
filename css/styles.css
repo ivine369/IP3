@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Cute+Font|Fredericka the Great");
 @import url("https://fonts.googleapis.com/css?family=Fredericka the Geat");
 * {
@@ -164,11 +163,14 @@ h1 {
     letter-spacing: 2px;
     font-family: 'Fredericka the great', cursive;
 }
+.text-center{
+  text-align: center;
+}
 @media screen and (max-width:450px) {
     .form-cont input {
         width: 100%;
         margin-top: 10px;
-    } 
+    }
     body{
         overflow-x: hidden;
     }
@@ -178,35 +180,11 @@ h1 {
         font-size: calc(1vw + 1vh + .5vmin);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Cute+Font|Cairgette");
 @import url("https://fonts.googleapis.com/css?family=Cairgette");
 html{
   scroll-behavior: smooth;
 }
-
 .landing{
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-position: center center;
@@ -214,7 +192,7 @@ html{
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 17%; 
+  padding-top: 17%;
   font-family: 'Fredericka the Great', Cursive;
   /* padding-bottom:5%; */
 }
@@ -222,8 +200,6 @@ html{
   padding: 2px;
   margin: 5px;
 }
-
-
 .landing p{
   padding: 2px;
 }
@@ -236,18 +212,14 @@ html{
 #mouse-click{
   padding-top : 22px;
   margin-top: 10%;
-  padding-bottom: 30px; 
-
+  padding-bottom: 30px;
   /* animation-iteration-count: infinite; */
 }
-
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
- 
 }
-
 .about{
   text-align: center;
   padding-bottom: 70px;
@@ -260,6 +232,11 @@ html{
   font-family: 'Kotta One', cursive;
 }
 #about{
+  font-family: 'Fredericka the Great', Cursive;
+  text-align: center;
+}
+#aboutUs{
+  text-align: center;
   font-family: 'Fredericka the Great', Cursive;
 }
 .services{
@@ -282,6 +259,7 @@ html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .services h2{
   font-family: 'Fredericka the Great', cursive;
@@ -300,12 +278,16 @@ html{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  text-align: center;
   margin-left:18%;
   margin-right: 16%;
 }
 .col-md-3 img{
   max-width: 100%;
   max-height: 100%;
+}
+h1{
+  text-align: center;
 }
 .portfolio h2{
   text-align: center;
@@ -339,9 +321,8 @@ input[type=text],input[type=email],#comment{
   font-size: 20px;
   font-family:'Smokum'  , cursive;
 }
-
-.form-control::-webkit-input-placeholder { 
-  color: white; 
+.form-control::-webkit-input-placeholder {
+  color: white;
 }
 #MERGE1{
   width: 30%;
@@ -355,10 +336,11 @@ input[type=text],input[type=email],#comment{
   margin-left: 20%;
   width: 60%;
 }
-button{
+.btn{
   margin-left: 20%;
   padding-bottom: 30px;
   margin-bottom: 20px;
+  text-align: center;
 }
 footer{
   text-align: center;
@@ -367,6 +349,9 @@ footer{
 }
 footer p{
   margin-top: 10px;
+}
+.toggle{
+    display: none;
 }
 #product, #development, #design{
   display: none;
@@ -392,7 +377,6 @@ footer p{
   padding-top: 50%;
   font-family:'Cinzel' , serif;
 }
-
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
@@ -408,18 +392,17 @@ footer p{
   }
   #portfolio{
     margin-left:8%;
-    margin-right: 16%; 
+    margin-right: 16%;
+    text-align: center;
   }
   button{
     margin-left: 2%;
     padding-bottom: 30px;
     margin-bottom: 20px;
     /* margin-left: 10px; */
-
     /* margin-right: -20%; */
   }
 }
-
 @media only screen and (max-width: 425px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
@@ -435,7 +418,7 @@ footer p{
   }
   #portfolio{
     margin-left:8%;
-    margin-right: 16%; 
+    margin-right: 16%;
   }
   button{
     padding-bottom: 30px;
@@ -462,7 +445,7 @@ footer p{
     height: 100%;
     top: 20px;
     left: 20px;
-    padding-top:30%; 
+    padding-top:30%;
   }
   .col-md-3 img{
     width: 400px;
@@ -470,7 +453,7 @@ footer p{
   }
   #portfolio{
     margin-left:10%;
-    margin-right: 10%; 
+    margin-right: 10%;
   }
 }
 @media only screen and (min-width: 625px){
@@ -479,7 +462,7 @@ footer p{
     height: 100%;
     top: 20px;
     left: 20px;
-    padding-top:20%; 
+    padding-top:20%;
     font-size: 26px;
   }
   .col-md-3 img{
@@ -488,12 +471,9 @@ footer p{
   }
   #portfolio{
     margin-left:6%;
-    margin-right: 10%; 
+    margin-right: 10%;
   }
 }
-
-
-
 
 
 
